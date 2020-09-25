@@ -12,9 +12,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/styled-components": "^5.1.3",
+    "babel-plugin-styled-components": "^1.11.1",
+    "modern-css-reset": "^1.1.1",
     "next": "^9.5.3",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "sass": "^1.26.11",
+    "styled-components": "^5.2.0"
   },
   "devDependencies": {
     "@types/node": "^14.11.2",
