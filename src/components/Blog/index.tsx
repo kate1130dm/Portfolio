@@ -26,8 +26,8 @@ type Res = {
 export function Blog() {
   const router = useRouter();
 
-  const refetch = (v: any) => {
-    request(v.target.value);
+  const refetch = (v: React.MouseEvent<HTMLButtonElement>) => {
+    request(Number(v.currentTarget.value));
   };
 
   const [numbers, setNumbers] = useState<{
