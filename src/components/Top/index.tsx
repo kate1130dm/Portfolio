@@ -5,7 +5,7 @@ export function Top() {
     <Style>
       <p>this is font test</p>
       <Background>
-      <p>test test testßßs</p>
+      <p>test test testßßsaß</p>
       </Background>
     </Style>
   );
