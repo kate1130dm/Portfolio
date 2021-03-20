@@ -3,8 +3,10 @@ import styled from "styled-components";
 export function Top() {
   return (
     <Style>
-      <h1>this is font test</h1>
-      <img src="/kanamaru_half.png" alt="kanamaru" />
+      <p>this is font test</p>
+      <Background>
+      <p>test test testßßsaß</p>
+      </Background>
     </Style>
   );
 }
@@ -12,7 +14,12 @@ export function Top() {
 const Style = styled.div`
   font-size: 1.5rem;
   text-align: center;
-  background-color: #d4bcd4;
+  background-color: #fff;
   color: #333;
-  font-family: "Mv Boli", "Noteworthy", "Party LET";
+  margin:0;
+`;
+
+const Background = styled.div`
+background: #333;
+color: #fff;
 `;
